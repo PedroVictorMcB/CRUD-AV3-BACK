@@ -14,8 +14,8 @@ app.use(morgan('combined'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-const key = "https://cpdelfetsombvllrfcln.supabase.co";
-const url = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNwZGVsZmV0c29tYnZsbHJmY2xuIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTkzMTA0MDAsImV4cCI6MjAxNDg4NjQwMH0.SZjRrKsRA0FSZsnuPVgHdMnzoGe_lbL5gIHH5yv5wRo";
+const key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNwZGVsZmV0c29tYnZsbHJmY2xuIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTkzMTA0MDAsImV4cCI6MjAxNDg4NjQwMH0.SZjRrKsRA0FSZsnuPVgHdMnzoGe_lbL5gIHH5yv5wRo";
+const url = "https://cpdelfetsombvllrfcln.supabase.co";
 
 const supabase = supabaseClient.createClient(url, key);
 
